@@ -1,0 +1,33 @@
+class Metodo{
+
+	+	a:float
+    +   b:float
+	+	n:int
+    +   g:int
+	+	h:float
+	
+	+	DesarrollarFuncion(x:float):float
+	+	ObtenerNoIntervalos():void
+	+	LeerIntervalos():void
+	+	CalcularH():void
+		
+}
+
+class Trapecio{
+		-x[200]:float
+		-fa:float
+        -fb:float
+        -moy:float
+        -changuito:float
+        -fx[200]:float
+		
+	
+	    +EncontrarX():void
+		+AproximarX():void
+		+AproximarIntMin():void
+		+AproximarIntMax():void
+		+MostrarValoresX():void
+		+MostrarResultado():void
+		
+}
+Metodo "1" <|-- "1" Trapecio
